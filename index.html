@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrolab | أسطرلاب</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: radial-gradient(circle, #101223 0%, #050508 100%);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+        .logo {
+            font-size: 80px;
+            margin-bottom: 20px;
+            animation: spin 20s linear infinite;
+            display: inline-block;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+            background: linear-gradient(45deg, #ff7b00, #ffae00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #a0aec0;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background: linear-gradient(45deg, #ff7b00, #e05300);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(255, 123, 0, 0.4);
+            transition: 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 123, 0, 0.6);
+        }
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🧭</div>
+        <h1>مرحباً بك في أسطرلاب | Astrolab</h1>
+        <p>نحن نقوم الآن بتهيئة بيئة الاستكشاف الرقمية الخاصة بنا. هذا الموقع تم ربطه بنجاح وتفعيله عبر السحاب.</p>
+        <p style="font-size: 0.9rem; color: #718096;">نطاقك النشط: astrolab.qzz.io</p>
+        <a href="#" class="btn">ابدأ الاستكشاف قريباً</a>
+    </div>
+</body>
+</html>
